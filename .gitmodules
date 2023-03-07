@@ -1,0 +1,4 @@
+[submodule "modules/modal-package"]
+	path = modules/modal-package
+	url = https://github.com/Buiduc-Thien/Model-Package.git
+	branch = dev
