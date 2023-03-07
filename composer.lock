@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65e85f9f959c0b087110331754d451cf",
+    "content-hash": "98e906d6f98ab1acb52031eca454c06f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5942,6 +5942,42 @@
             "time": "2022-09-07T15:32:08+00:00"
         },
         {
+            "name": "modal/package",
+            "version": "dev-dev",
+            "dist": {
+                "type": "path",
+                "url": "./modules/modal-package",
+                "reference": "1c60371543dda1521c6181a870ac36067d1b8613"
+            },
+            "require": {
+                "illuminate/database": "^9.0",
+                "php": "^8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ModelsPackage\\Laravel\\Product\\Providers\\ProductServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ModelsPackage\\Laravel\\Product\\": "src/product/src/app/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Bui Duc Thien",
+                    "email": "buithien160@gmail.com"
+                }
+            ],
+            "description": "The Modal Package",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.11.0",
             "source": {
@@ -8005,7 +8041,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "modal/package": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
