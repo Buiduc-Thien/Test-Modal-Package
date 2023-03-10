@@ -5947,7 +5947,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/modal-package",
-                "reference": "81199ce3a3d495662a3c6fa9fb2ea63e0a57e82e"
+                "reference": "43fc1378bf03d62cd00c148eeb1f5f69b940c1b7"
             },
             "require": {
                 "illuminate/database": "^9.0",
@@ -5965,7 +5965,8 @@
             "autoload": {
                 "psr-4": {
                     "ModelsPackage\\Laravel\\Product\\": "src/product/src/app/",
-                    "ModelsPackage\\Laravel\\User\\": "src/user/src/app/"
+                    "ModelsPackage\\Laravel\\User\\": "src/user/src/app/",
+                    "ModelsPackage\\Laravel\\Models\\": "src/models/"
                 }
             },
             "authors": [
